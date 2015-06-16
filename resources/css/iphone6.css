@@ -1,0 +1,43 @@
+#main-footer {
+	width: 100%;
+}
+#main-footer-content {
+	width: 95%;
+}
+#about-us {
+	margin-right: 10px;
+	border-right: 1px solid #2E2E2E;
+	width: 80%;
+}
+#other-links {
+	width: 20%;
+}
+#connect {
+  	padding-right: 5px;
+  	border-right: 1px solid #2E2E2E;
+  	width: 20%;
+}
+#contact-us {
+	width: 80%;
+}
+#copyright-footer-content {
+	width: 100%;	
+}
+#copyright-footer-content p {
+	text-align: center;
+	color: #606060;
+	width: 100%;
+}
+#copyright-links {
+	float: none;
+	line-height: 35px;
+  	height: 10px;
+  	width: 87%;
+  	margin: 0 auto;
+}
+#copyright-links li {
+	margin: 0px 2px 0px 2px; 
+}
+#copyright-links li a {
+ 	color: #606060;
+}

@@ -1,0 +1,131 @@
+/*FONTS*/
+@font-face {
+	font-family: "Calibri";
+    src: url('../../assets/fonts/calibri/calibri.ttf'); 
+}
+@font-face {
+	font-family: "Calibri-Bold";
+    src: url('../../assets/fonts/calibri/calibrib.ttf'); 
+}
+@font-face {
+	font-family: "Calibri-Italic";
+    src: url('../../assets/fonts/calibri/calibrii.ttf'); 
+}
+@font-face {
+	font-family: "Calibri-Bold-Italic";
+    src: url('../../assets/fonts/calibri/calibriz.ttf'); 
+}
+/*END FONTS*/
+/*HEADER*/
+/*END HEADER*/
+/*GENERAL*/
+p {
+	line-height: 120%;
+}
+/*END GENERAL*/
+/* FOOTER */
+#main-footer {
+	background: #262626;
+	color: #fff;
+	font-size: 15px;
+}
+#main-footer-content {
+	width: 1024px;
+	margin: 0 auto;
+	display: flex;
+	padding-top: 25px;
+	padding-bottom: 30px;
+}
+#about-us {
+	width: 210px;
+	margin-right: 43px;
+}
+#footer-title {
+	font-family: "Calibri-Bold";
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+#footer-content {
+	font-family: "Calibri-Italic";
+}
+#aboutus-link {
+	padding-top: 5px;
+}
+#aboutus-link a {
+	font-family: "Calibri-Italic";
+	text-decoration: none;
+	color: #CE7E32;
+}
+#footer-title-bold {
+	font-family: "Calibri-Bold";
+}
+#other-links {
+	width: 160px;
+}
+#other-links ul {
+	list-style-type: disc;
+	margin-left: 17px;
+	font-family: "Calibri-Italic";
+}
+#other-links ul li {
+  	padding-bottom: 10px;
+}
+#other-links ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+#connect {
+	width: 275px;
+	padding-right: 70px;
+}
+#connect-content {
+	font-family: "Calibri";
+	font-size: 15px;
+}
+#social-links {
+	background: url(../../assets/images/socialIcon_bottom.png);
+  height: 30px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+#social-links:hover {
+	background: url(../../assets/images/socialIcon_bottom.png);
+  height: 30px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+	background-position: bottom left;
+}
+#copyright-footer {
+	width: 100%;
+  	background: #181818;
+  	height: 60px;
+  	margin: 0;
+  	padding: 0 0 0 0;
+  	font-size: 13px;
+  	font-family: "Calibri"; 
+}
+#copyright-footer-content {
+	width: 1024px;
+	margin: 0 auto;
+}
+#copyright-footer-content p {
+	width: 50%;
+	margin-right: 0px;
+	float: left;
+	color: #fff;
+	line-height: 60px;
+}
+#copyright-links {
+	list-style-type: none;
+	float: right;
+	display: flex;
+	line-height: 60px;
+}
+#copyright-links li {
+	margin: 0px 15px 0px 15px;
+}
+#copyright-links li a {
+	text-decoration: none;
+	color: #fff;
+}
+/* END FOOTER */

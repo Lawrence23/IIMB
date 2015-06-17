@@ -1,0 +1,22 @@
+#main-footer {
+	width: 100%;
+}
+#main-footer-content {
+	width: 95%;
+}
+#about-us {
+	margin-right: 10px;
+}
+#connect {
+  	padding-right: 5px;
+}
+#copyright-footer-content {
+	width: 95%;
+}
+#copyright-footer-content p {
+	width: 35%;
+	color: #606060;
+}
+#copyright-links li a {
+ 	color: #606060;
+}

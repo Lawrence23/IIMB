@@ -24,15 +24,81 @@
 	font-family: "Calibri-Bold-Italic";
     src: url('../../assets/fonts/calibri/calibriz.ttf'); 
 }
+@font-face {
+	font-family: "RobotoSlab-Bold";
+    src: url('../../assets/fonts/Roboto Slab/RobotoSlab-Bold.ttf'); 
+}
+@font-face {
+	font-family: "OpenSans";
+    src: url('../../assets/fonts/Open Sans/OpenSans-Regular.ttf'); 
+}
 /*END FONTS*/
+
 /*HEADER*/
 /*END HEADER*/
+
 /*GENERAL*/
 p {
 	line-height: 120%;
 }
 /*END GENERAL*/
+
 /*CONTENT*/
+#img-container {
+	width: 100%;
+	height: 427px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	padding-top: 217px
+}
+#slider-wrapper {
+	width: 1024px;
+	margin: 0 auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+#banner {
+	height: 427px;
+	width: 386px;
+	background: -webkit-linear-gradient(left top, rgb(11, 128, 248) , rgb(0, 154, 255)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, rgb(11, 128, 248), rgb(0, 154, 255)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, rgb(11, 128, 248), rgb(0, 154, 255)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, rgb(11, 128, 248) , rgb(0, 154, 255)); /* Standard syntax (must be last) */
+	
+	margin-right: 2px;
+	color: #fefefe;
+	font-family: "OpenSans";
+	padding: 50px 20px 0px 20px;
+}
+#banner h1 {
+	font-family: "RobotoSlab-Bold";
+	font-size: 34px;
+	text-shadow: 2px 2px #555555;
+}
+#banner a {
+	color: #fefefe;
+}
+#banner img {
+	cursor: pointer;
+}
+#banner #prev {
+	background-image: url(../../assets/images/banner_navigation.png);
+	background-position: 10px 10px; 
+}
+#banner #next {
+	background-image: url(../../assets/images/banner_navigation.png);
+	background-position: 10px 10px; 
+}
+#img-slider img{
+	width: 636px;
+	height: 427px;
+}
 #main-wrapper {
 	width: 1024px;
 	margin: 0 auto;
@@ -50,14 +116,15 @@ p {
 #main-content h1 {
 	color: rgb(255, 33, 48);
 	font-size: 27px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 #side-menu {
 	width: 30%;
 }
 #side-menu-items {
 	font-size: 20px;
+	padding-top: 15px;
 }
 #side-menu-items li {
 	color: rgb(0, 113, 248);
@@ -70,6 +137,7 @@ p {
 	color: rgb(239, 97, 77);
 }
 /*END CONTENT*/
+
 /* FOOTER */
 #main-footer {
 	background: #262626;
@@ -163,7 +231,7 @@ p {
 	line-height: 60px;
 }
 #copyright-links {
-	list-style-type: none;
+	list-style: none;
 	float: right;
 	display: flex;
 	line-height: 60px;
@@ -248,11 +316,12 @@ nav ul {
 	width: 100%;
 	position: relative;
 	text-align: center;
+	margin-top: 8px;
 }
 nav ul li {
     font-family: calibri ;
     float: left;
-    margin: 10px 20px;
+    margin: 10px 16px;
     font-size: 16px;  
     color: #FFFFFF;
  /*   border-right: 1px solid #000000;*/
@@ -284,34 +353,15 @@ nav ul li a{
 	padding: 7px;
 }
 
-
-
-@font-face {
-font-family: "Calibri";
-   src: url('../../assets/fonts/calibri/calibri.ttf');
-}
-@font-face {
-font-family: "Calibri-Bold";
-   src: url('../../assets/fonts/calibri/calibrib.ttf');
-}
-@font-face {
-font-family: "Calibri-Italic";
-   src: url('../../assets/fonts/calibri/calibrii.ttf');
-}
-@font-face {
-font-family: "Calibri-Bold-Italic";
-   src: url('../../assets/fonts/calibri/calibriz.ttf');
-}
 header{
 	position: absolute;
 	width:100%;
 	/*height: 65%;*/
 }
 form {
-    width:232px;
-  
+   width:232px;
+ 
 }
-
 
 #searchbox{
 	float: right;
@@ -329,7 +379,7 @@ form {
 	height: 48px;
 }
 #logo{
-	padding-top: 35px;
+	padding-top: 30px;
 }
 
 @media (max-width: 1024px) {

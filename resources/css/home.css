@@ -63,7 +63,7 @@ p {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	padding-top: 217px
+	padding-top: 187px;
 }
 #slider-wrapper {
 	width: 1024px;
@@ -402,6 +402,7 @@ body {
 	margin: auto;
 	left: 0;
 	right: 0;
+	top:0px;
 }
 .main-nav {
 
@@ -413,24 +414,27 @@ nav ul {
     
 }
 #nav {
-	background-color: #000;
+	background-image: url(../../assets/images/topmenu_bg.png);
 	height: 39px;
 	width: 100%;
 	position: relative;
-	text-align: center;
-	margin-top: 8px;
+	/*text-align: center;*/
+	margin-top: 112px;
 }
 nav ul li {
     font-family: calibri ;
     float: left;
-    margin: 10px 16px;
+    margin: 0px;
+    padding: 10px 16px 10px 16px;
     font-size: 16px;  
     color: #FFFFFF;
+    border-right: 1px solid #fff;
+    cursor: pointer;
  /*   border-right: 1px solid #000000;*/
 }
 
-nav ul li a:hover{
-    background-color: rgba(204, 19, 19, 1);   
+nav ul li:hover{
+    background-color: rgb(50, 50, 50);   
     border-right:1px solid #000;
 }
 
@@ -438,15 +442,33 @@ nav ul li a{
     text-decoration: none;
 
 }
-#navlist {
-	/*height: 12px;*/
+nav ul li ul li {
+	width: 100%;
+}
+nav ul li ul{
+   display: none;
+  position: absolute;
+  z-index: 999;
+  left: 0;
+  margin-top: 11px;
+  width: 30%;
+  background-color: rgb(50, 50, 50);
+
+}
+ul li:hover ul{
+    display: inline-table; /* display the dropdown */
+}
+nav ul li ul li{
+	border-bottom: 2px solid white;
+	border-right: none;
+	padding-bottom: 10px
 }
 #navlist ul {
 	list-style-type: none;
     display: flex; 
-    float: right;
-    margin: 0px 0px;
+    margin: 0px;
     padding: 0px;
+    float: right;
 }
 #navlist ul li{
 	font-family: calibri ;
@@ -461,27 +483,42 @@ header{
 	/*height: 65%;*/
 }
 form {
-   width:232px;
+  /* width:232px;*/
  
 }
 
 #searchbox{
-	float: right;
+  top: 40px;
+  position: absolute;
+  right: 0;
+  height: 27px;
+  
+}
+input[type=text] {
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #555555;
+  padding-left: 7px;	
+  background-image: url(../../assets/images/search_icon.png);
+  background-repeat: no-repeat;
+  background-position: 150px 3px;
+  background-size: 24px;
 }
 #img{
-	width:50%;
+	width:44%;
 }
 #socialmedia{
 	height: 24px;
 	overflow: hidden;
-	width: 71%;
+	float: right;
 }
 #social{
-	float: right;
 	height: 48px;
 }
 #logo{
-	padding-top: 30px;
+	  float: left;
+  	  width: 100%;
 }
 
 @media (max-width: 1024px) {

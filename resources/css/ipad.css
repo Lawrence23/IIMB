@@ -1,3 +1,58 @@
+#slider-wrapper {
+  	width: 95%;
+}
+#banner {
+	width: 35%;
+}
+#img-slider {
+	width: 65%;
+  	height: 427px;
+  	background-image: url(../../assets/images/DSC_0266.jpeg);
+  	background-size: 171%;
+  	background-position: -165px -93px;
+}
+#img-slider img {
+	display: none;
+}  
+#main-wrapper {
+	width: 100%;
+}
+#content-sections {
+	width: 95%;
+  	margin: 0 auto;
+}
+#content-wrapper li {
+	width: 33%;
+}
+.news-header h2, .events-header h2, .features-header h2 {
+	width: 57%;
+	line-height: 10px;
+}
+.news-image img, .events-image img, .features-image img {
+	width: 100%;
+}
+.inner-blue-box {
+  	height: auto;
+  	width: 100%;
+}
+.inner-blue-box h1 {
+  	line-height: 19px;
+  	padding-top: 0px;
+}
+.inner-blue-box img {
+  padding-right: 5px;
+  width: 60px;
+}
+.image-button1, .image-button2, .image-button3 {
+	width: 100%;
+}
+.imgtext {
+	font-size: 20px;
+}
+#studentImg {
+  	bottom: 46px;
+  	width: 97px;
+}
 #main-footer {
 	width: 100%;
 }

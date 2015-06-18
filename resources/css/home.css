@@ -381,18 +381,40 @@ p {
 	font-family: "Calibri";
 	font-size: 15px;
 }
-#social-links {
-	background: url(../../assets/images/socialIcon_bottom.png);
-  height: 30px;
-  background-repeat: no-repeat;
-  cursor: pointer;
+#social-links ul {
+	padding-top: 10px;
 }
-#social-links:hover {
-	background: url(../../assets/images/socialIcon_bottom.png);
-  height: 30px;
-  background-repeat: no-repeat;
-  cursor: pointer;
-	background-position: bottom left;
+#social-links ul li a {
+	float: left;
+  	overflow: hidden;
+  	text-decoration: none;
+  	background: url(../../assets/images/socialIcon_bottom.png) no-repeat scroll right center transparent;
+  	width: 32px;
+  	height: 30px;
+}
+#social-links ul li #youtube {
+	background-position: 0px 0px;
+}
+#social-links ul li #youtube:hover {
+	background-position: 0px -29px;
+}
+#social-links ul li #facebook {
+	background-position: -34px 0px;
+}
+#social-links ul li #facebook:hover {
+	background-position: -34px -29px;
+}
+#social-links ul li #twitter {
+	background-position: -98px 0px;
+}
+#social-links ul li #twitter:hover {
+	background-position: -98px -29px;
+}
+#social-links ul li #linkedin {
+	background-position: -65px 0px;
+}
+#social-links ul li #linkedin:hover {
+	background-position: -65px -29px;
 }
 #copyright-footer {
 	width: 100%;

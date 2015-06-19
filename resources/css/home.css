@@ -66,6 +66,7 @@ p {
 }
 a, a:visited, a:hover, a:active {
   color: inherit;
+  cursor: pointer;
 }
 /*END GENERAL*/
 
@@ -626,6 +627,7 @@ input[type=text] {
 #social-media ul {
 	height: 24px;
 	float: right;
+	width: 127px;
 }
 #social-media ul li a {
 	float: left;
@@ -669,8 +671,9 @@ input[type=text] {
 #nav-icons {
 	padding-top: 60px;
 }
-#nav-icons ul {
-	
+#nav-icons-ul ul {
+	  padding-left: 16px;
+	    margin-top: 10px;
 }
 
 @media (max-width: 1024px) {

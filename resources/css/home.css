@@ -114,6 +114,26 @@ a, a:visited, a:hover, a:active {
 #banner img {
 	cursor: pointer;
 }
+#img-nav ul li a {
+	float: left;
+  	overflow: hidden;
+  	text-decoration: none;
+  	background: url(../../assets/images/banner_navigation.png) no-repeat scroll right center transparent;
+  	width: 31px;
+  	height: 30px;
+}
+#img-nav ul li #next {
+	background-position: -33px 0px;
+}
+#img-nav ul li #prev {
+	background-position: 0px 0px;	
+}
+#img-nav ul li #next:hover {
+	opacity: 0.5;
+}
+#img-nav ul li #prev:hover {
+	opacity: 0.5;
+}
 #img-slider img{
 	width: 636px;
 	height: 427px;

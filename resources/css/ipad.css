@@ -62,8 +62,11 @@
 #about-us {
 	margin-right: 10px;
 }
+#other-links {
+	width: 150px;
+}
 #connect {
-  	padding-right: 5px;
+  	padding-right: 10px;;
 }
 #copyright-footer-content {
 	width: 95%;

@@ -525,6 +525,7 @@ nav ul {
 }
 #nav {
 	background-image: url(../../assets/images/topmenu_bg.png);
+	background-size: contain;
 	height: 39px;
 	width: 100%;
 	position: relative;
@@ -539,7 +540,6 @@ nav ul li {
     color: #FFFFFF;
     border-right: 1px solid #fff;
     cursor: pointer;
- /*   border-right: 1px solid #000000;*/
 }
 
 nav ul li:hover{
@@ -568,7 +568,7 @@ ul li:hover ul{
     display: inline-table; /* display the dropdown */
 }
 nav ul li ul li{
-	border-bottom: 2px solid white;
+	border-bottom: 2px solid rgb(65, 65, 65);
 	border-right: none;
 	padding-bottom: 10px
 }

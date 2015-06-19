@@ -41,3 +41,90 @@
 #copyright-links li a {
  	color: #606060;
 }
+#nav-icons{
+	display: none;
+}
+#nav{
+	display: none;
+}
+form{
+	display: none;
+}
+#logo img {
+  	width: 125%;
+}
+#slider-wrapper {
+  	margin: -127px auto;
+}
+#main-div{
+	padding-top: 15px;
+}
+#iphone6{
+	float: right;
+	display: block;
+}
+#submitForm  {
+	display: block;
+  background-image: url(../../assets/images/search_icon.png);
+  background-repeat: no-repeat;
+  height: 26px;
+  /* padding-bottom: 7px; */
+  width: 28px;
+  float: right;
+  /* padding-top: 0px; */
+  background-color: white;
+  border: 1px solid rgb(210, 207, 207);
+  border-radius: 5px;
+  background-position: 1px 3px;
+}
+#submitButton  {
+	display: block;
+  background-image: url(../../assets/images/menu-icon-dna.png);
+  background-repeat: no-repeat;
+  height: 26px;
+  /* padding-bottom: 7px; */
+  width: 28px;
+  float: right;
+  /* padding-top: 0px; */
+  background-color: white;
+  border: 1px solid rgb(210, 207, 207);
+  border-radius: 5px;
+  background-size: 17px;
+  background-position: 4px 6px;
+  margin-right: 6px;
+}
+#content-wrapper li {
+  /* width: 415px; */
+  /* margin-right: 12px; */
+  padding-bottom: 25px;
+}
+#content-wrapper {
+  display: block;
+}
+
+.image-button1, .image-button2, .image-button3 {
+  width: 333px;
+  display: inline-block;
+  height: 70px;
+  margin-left: 13px;
+  border-radius:0; 
+}
+.studentImg {
+  float: right;
+  bottom: 107px;
+  position: relative;
+  height: 100px;
+  margin-top: 58px;
+}
+.imgtext {
+  font-size: 20px;
+  }
+#span2{
+	display: block;
+}
+#span1{
+	display: none;
+}
+#button-container {
+	padding-top: 18px;
+}

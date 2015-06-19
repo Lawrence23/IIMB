@@ -480,7 +480,7 @@ a, a:visited, a:hover, a:active {
 #button1{
 
 }
-#studentImg{
+.studentImg{
 	float: right;
 	bottom: 86px;
 	position: relative;
@@ -514,9 +514,10 @@ body {
 	right: 0;
 	top:0px;
 }
-.main-nav {
-
+#main-div{
+	padding-top: 31px;
 }
+
 nav ul {
     list-style: none;
     display: block;  
@@ -595,9 +596,11 @@ header{
 	width:100%;
 	/*height: 65%;*/
 }
-form {
-  /* width:232px;*/
- 
+#submitButton{
+	display: none;
+}
+#submitForm{
+	display: none;
 }
 
 #searchbox{
@@ -675,7 +678,21 @@ input[type=text] {
 	  padding-left: 16px;
 	    margin-top: 10px;
 }
+#span2{
+	display: block;
+}
+#span1{
+	display: none;
+}
 
+
+
+
+
+
+
+
+/*mediaquery*/
 @media (max-width: 1024px) {
 
 #navlist ul li{

@@ -110,6 +110,9 @@ nav ul li {
 }
 .image-button1, .image-button2, .image-button3 {
   	height: 85px;
+}
+#button-container {
+	width: 100%;
 }   
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
 	nav ul li {

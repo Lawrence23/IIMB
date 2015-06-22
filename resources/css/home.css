@@ -526,6 +526,13 @@ a, a:visited, a:hover, a:active {
 	bottom: 86px;
 	position: relative;
 }
+#button-container {
+	width: 1024px;
+	margin: 0 auto;
+	padding-top: 40px;
+  padding-bottom: 20px;
+}
+
 
 
 /*header css*/

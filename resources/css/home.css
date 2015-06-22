@@ -705,10 +705,7 @@ input[type=text] {
 #header-wrapper {
 	width:90%;
 }
-nav ul li{
-	margin: 5px 10px;
-	font-size: 15px;
-}
+
 #nav{
 	height:30px;
 	/*overflow: hidden;*/
@@ -734,11 +731,7 @@ nav ul li{
 body {
 	padding:0px;
 }
-nav ul li{
-	margin: 5px 10px;
-	font-size: 11px;
 
-}
 #header-wrapper {
 	width:90%;
 }

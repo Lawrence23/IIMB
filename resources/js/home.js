@@ -4,7 +4,6 @@ $(function () {
         return element;
     });
  	var i = 0;
-    console.log(SliderList);
     $container.html('<div id="banner"><h1>'+SliderList[i].title+'</h1><br><p>'+SliderList[i].description+'</p><br><a href="#">Read More</a><br><br><br><div id="img-nav"><ul><li><a href="#" id="prev">&nbsp;</a></li><li><a href="#" id="next">&nbsp;</a></li></ul></div></div><div id="img-slider"><img src="'+SliderList[i].value+'"></div>');
     document.getElementById('next').onclick = function () { nextSlider(SliderList,i); }
     document.getElementById('prev').onclick = function () { prevSlider(SliderList,i); }

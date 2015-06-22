@@ -474,11 +474,32 @@ a, a:visited, a:hover, a:active {
 	color: #fff;
 }
 /* END FOOTER */
-
-
+.image-button1 p,
+.image-button2 p,
+.image-button3 p {
+	font-size: 36px;
+	font-family: "Calibri-Bold";
+	color: #ffffff;
+}
+.image-button3 .image-text {
+	width: 60%;
+  	padding: 10px 0px 0px 25px;
+  	display: inline-block;
+}
+.image-button2 .image-text {
+	width: 60%;
+  	padding: 32px 0px 0px 10px;
+  	display: inline-block;
+}
+.image-button1 .image-text {
+	width: 70%;
+	padding: 10px 0px 0px 10px;
+	display: inline-block;
+}
 .image-button1,.image-button2,.image-button3{
 	width: 333px;
 	display: inline-block;
+	vertical-align: middle;
 	height: 111px;
 	border-radius: 9px;
 }
@@ -491,27 +512,20 @@ a, a:visited, a:hover, a:active {
 .image-button3{
 	background:rgb(0, 192, 240);
 }
-.imgtext{
-	font-size: 36px;
-	font-family: calibri-bold;
-	color: #ffffff;
-	margin-right: 20px;
+.image-button1 #studentImg {
+	top: -146px;
 }
-#button1{
-
+.image-button2 #studentImg {
+	top: -120px;
+}
+.image-button3 #studentImg {
+	top: -142px;
 }
 #studentImg{
 	float: right;
 	bottom: 86px;
 	position: relative;
 }
-#button-container {
-	width: 1024px;
-	margin: 0 auto;
-	padding-top: 40px;
-  padding-bottom: 20px;
-}
-
 
 
 /*header css*/

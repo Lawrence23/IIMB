@@ -85,8 +85,62 @@ nav ul li {
 #copyright-links li a {
  	color: #606060;
 }
+.events-blue-box .inner-blue-box h1,
+.features-blue-box .inner-blue-box h1 {
+	font-size: 10px;
+}
+.inner-blue-box p {
+  	font-size: 10px;
+}
+.inner-blue-box h1 {
+  	font-size: 11px;
+}
+.image-button1 p, .image-button2 p, .image-button3 p {
+  	font-size: 26px;
+}
+.image-button1 #studentImg {
+	top: -108px;
+}
+.image-button2 #studentImg {
+	top: -84px;
+}
+.image-button3 #studentImg {
+	top: -99px;
+	width: 53%;
+}
+.image-button1, .image-button2, .image-button3 {
+  	height: 85px;
+}   
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
 	nav ul li {
 		padding: 9px;
 	}
+	.events-blue-box .inner-blue-box h1,
+	.features-blue-box .inner-blue-box h1 {
+		font-size: 13px;
+	}
+	.inner-blue-box p {
+	  	font-size: 13px;
+	}
+	.inner-blue-box h1 {
+	  	font-size: 14px;
+	}
+	.image-button1 p, .image-button2 p, .image-button3 p {
+	  	font-size: 30px;
+	}
+	.image-button1 #studentImg {
+	  	top: -128px;
+  		width: 35%;
+	}
+	.image-button2 #studentImg {
+		top: -42px;
+  		width: 40%;
+	}
+	.image-button3 #studentImg {
+		top: -131px;
+  		width: 48%;
+	}
+	.image-button3 .image-text {
+  		width: 59%;
+  	}	
 }

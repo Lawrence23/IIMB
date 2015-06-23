@@ -29,10 +29,6 @@
     FB.api('/1603246336630763', function(response) {
         console.log(response);
     })
-    FB.ui({
-        method: 'share',
-        href: 'http://lawrence23.github.io/IIMB/views/'
-    }, function(response){});
 };
 
 (function(d, s, id){
@@ -42,6 +38,12 @@
     js.src = "//connect.facebook.net/en_US/sdk.js";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
+document.getElementById('facebook').onclick = function () { 
+	FB.ui({
+        method: 'share',
+        href: 'http://lawrence23.github.io/IIMB/views/'
+    }, function(response){}); 
+}
 </script>
 <header>
 	<div id="header-wrapper">
@@ -69,7 +71,7 @@
 					<ul>
 						<li><a href="#" id="youtube">&nbsp;</a></li>
 						<li>
-							<a href='http://www.facebook.com/share.php?u=http://lawrence23.github.io/IIMB/views/' target="popup"  onclick="window.open('http://www.facebook.com/share.php?u=http://lawrence23.github.io/IIMB/views/','name','width=600,height=400')" id="facebook">&nbsp;</a>
+							<a href="#" target="popup" id="facebook">&nbsp;</a>
 						</li>
 						<li><a href="#" id="linkedin">&nbsp;</a></li>
 						<li><a href="http://twitter.com/share?text=Am sharing on Twitter&url=http://lawrence23.github.io/IIMB/views/&hashtags=IIMB,Design,Vinay" target="popup" onclick="window.open('http://twitter.com/share?text=IIM Bangalore Website Design&url=http://lawrence23.github.io/IIMB/views/&hashtags=IIMB,Design,Vinay','name','width=600,height=400')" id="twitter">&nbsp;</a>

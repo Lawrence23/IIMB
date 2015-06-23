@@ -18,33 +18,7 @@
     <link rel="stylesheet" media="screen and (max-width: 420px)" href="../resources/css/iphone6.css" />
 </head>
 <body>
-<script>
-	window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '1603246336630763',
-      status     : true, 
-      xfbml      : true,
-      version    : 'v2.3'
-    });
-    FB.api('/1603246336630763', function(response) {
-        console.log(response);
-    })
-};
 
-(function(d, s, id){
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) {return;}
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
-document.getElementById('facebook').onclick = function () { 
-	FB.ui({
-        method: 'share',
-        href: 'http://lawrence23.github.io/IIMB/views/'
-    }, function(response){}); 
-}
-</script>
 <header>
 	<div id="header-wrapper">
 		<div id="logo">
@@ -374,6 +348,33 @@ document.getElementById('facebook').onclick = function () {
 		</div>
 	</div>
 </footer>
+<script>
+	window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1603246336630763',
+      status     : true, 
+      xfbml      : true,
+      version    : 'v2.3'
+    });
+    FB.api('/1603246336630763', function(response) {
+        console.log(response);
+    })
+};
+
+(function(d, s, id){
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) {return;}
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+document.getElementById('facebook').onclick = function () { 
+	FB.ui({
+        method: 'share',
+        href: 'http://lawrence23.github.io/IIMB/views/'
+    }, function(response){}); 
+}
+</script>
 <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="../resources/js/home.js"></script>
 <script src="../resources/js/slider.js"></script>		

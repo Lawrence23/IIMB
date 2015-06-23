@@ -736,7 +736,9 @@ input[type=text] {
 	  padding-left: 16px;
 	    margin-top: 10px;
 }
-
+#phone-footer {
+	display: none;
+}
 
 @media (min-width: 1280px) {
 	#content-wrapper li:nth-child(3) {

@@ -277,3 +277,37 @@ form{
 #img-container {
     padding-top: 200px;
 }
+#main-footer {
+    display: none;
+}
+#footer1, #footer2 {
+    width: 100%;
+}
+
+#about-us {
+    width: 70%;
+    float: left;
+    margin: 30px 0px 0px 0px;
+    padding: 25px 15px 30px 25px;
+}
+#other-links {
+    width: 30%;
+    float: left;
+    padding: 30px 15px 20px 25px;
+}
+#connect {
+    width: 30%;
+    float: left;
+    margin: 0px 52px 49px 0px;
+    padding: 5px 15px 20px 25px
+}
+#contact-us {
+    width: 100%;
+    padding: 30px 90px 20px 25px;
+}
+#phone-footer {
+    display: block;
+    background: #262626;
+    color: #fff;
+    font-size: 15px;
+}

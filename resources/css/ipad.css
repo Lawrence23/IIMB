@@ -22,7 +22,7 @@ nav ul li {
 	display: none;
 }  
 #main-wrapper {
-	width: 100%;
+	width: 95%;
 }
 #content-sections {
 	width: 95%;
@@ -30,6 +30,8 @@ nav ul li {
 }
 #content-wrapper li {
 	width: 33%;
+	margin-right: 6px;
+  	margin-left: 6px;
 }
 .news-header h2, .events-header h2, .features-header h2 {
 	width: 57%;

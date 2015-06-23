@@ -737,54 +737,7 @@ input[type=text] {
 	    margin-top: 10px;
 }
 
-@media (max-width: 1024px) {
 
-#navlist ul li{
-	
-	padding:5px;
-  }
-#header-wrapper {
-	width:90%;
-}
-
-#nav{
-	height:30px;
-	/*overflow: hidden;*/
-}
-#navlist ul li{
-	font-size: 10px;
-	padding:5px;
-
-}
-#socialmedia{
-	width: 74%;
-}
-}
-
-
-@media (max-width: 800px) {
-#navlist ul li{
-	font-size: 8px;
-	padding:3px;
-
-}
-
-body {
-	padding:0px;
-}
-
-#header-wrapper {
-	width:90%;
-}
-#socialmedia{
-	width: 73%;
-
-}
-#nav{
-	height:25px;
-	/*overflow: hidden;*/
-}
-}
 @media (min-width: 1280px) {
 	#content-wrapper li:nth-child(3) {
 		margin-right: 0px;

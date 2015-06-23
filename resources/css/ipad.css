@@ -34,7 +34,7 @@ nav ul li {
   	margin-left: 6px;
 }
 .news-header h2, .events-header h2, .features-header h2 {
-	width: 57%;
+	width: 50%;
 	line-height: 10px;
 }
 .news-image img, .events-image img, .features-image img {

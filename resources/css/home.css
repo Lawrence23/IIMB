@@ -87,6 +87,7 @@ a, a:visited, a:hover, a:active {
 #slider-wrapper {
 	width: 1024px;
 	margin: 0 auto;
+	display: flex;
 }
 #img-slider {
 	float: right;
@@ -114,6 +115,10 @@ a, a:visited, a:hover, a:active {
 }
 #banner img {
 	cursor: pointer;
+}
+#img-nav {
+	margin-top: 50px;
+  	margin-bottom: 80px;
 }
 #img-nav ul li a {
 	float: left;

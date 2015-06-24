@@ -31,7 +31,7 @@ body {
 	width: 80%;
 }
 #copyright-footer-content {
-	width: 100%;	
+	width: 58%;	
 }
 #copyright-footer-content p {
 	text-align: center;
@@ -168,15 +168,18 @@ form{
 }
 #banner {
     width: 100%;
-    padding-bottom: 50px;
-    height: auto;
+    padding: 20px 20px 20px 20px;
+    height: 56%;
+    position: absolute;
+    bottom: -207px;
 }
 #banner h1 {
     font-size: 24px;
-    padding-top: 65%;
 }
 #img-slider {
     width: 100%;
+    position: absolute;
+    top: 0px;
 }
 #img-slider img {
     width: 100%;
@@ -184,6 +187,7 @@ form{
 }
 #main-wrapper {
     width: 100%;
+    padding-top: 55%;
 }
 #content-sections {
     display: none;
@@ -192,7 +196,7 @@ form{
     display: block;
 }
 .news-content img, .events-content img, .features-content img {
-    width: 30%;
+    width: 19%;
     height: auto;
     padding-top: 15px;
     padding-bottom: 20px;
@@ -283,31 +287,47 @@ form{
 #footer1, #footer2 {
     width: 100%;
 }
-
+#footer-title {
+    font-size: 14px;
+}
 #about-us {
-    width: 70%;
+    width: 60%;
     float: left;
     margin: 30px 0px 0px 0px;
-    padding: 25px 15px 30px 25px;
+    padding: 0px 15px 30px 25px;
 }
 #other-links {
-    width: 30%;
+    width: 40%;
     float: left;
     padding: 30px 15px 20px 25px;
 }
 #connect {
-    width: 30%;
+    width: 47%;
     float: left;
-    margin: 0px 52px 49px 0px;
-    padding: 5px 15px 20px 25px
+    margin: 0px 22px 30px 0px;
+    padding: 5px 3px 20px 25px;
 }
 #contact-us {
     width: 100%;
-    padding: 30px 90px 20px 25px;
+    padding: 30px 0px 20px 0px;
 }
 #phone-footer {
     display: block;
     background: #262626;
     color: #fff;
-    font-size: 15px;
+}
+#footer-content {
+    font-size: 12px;
+}
+#other-links ul {
+    font-size: 12px;
+}
+#connect-content {
+    font-size: 12px;
+}
+#footer-title-bold {
+  font-size: 12px;
+}
+#copyright-footer {
+    height: 91px;
 }

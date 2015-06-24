@@ -18,6 +18,27 @@
     <link rel="stylesheet" media="screen and (max-width: 699px) and (min-width: 320px)" href="../resources/css/iphone6.css" />
 </head>
 <body>
+<script>
+	window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1603246336630763',
+      status     : true, 
+      xfbml      : true,
+      version    : 'v2.3'
+    });
+    FB.api('/1603246336630763', function(response) {
+        console.log(response);
+    })
+};
+
+(function(d, s, id){
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) {return;}
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
 <header>
 	<div id="header-wrapper">
 		<div id="logo">
@@ -185,6 +206,44 @@
 			</div>
 		</div>
 	</div>
+	<div id="phone-footer">
+		<div id="footer1">
+			<div id="about-us">
+				<p id="footer-title">About Us</p>
+				<p id="footer-content">A 100-acre oasis in south Banga- lore, the Indian Institute of Man- agement Bangalore (IIMB), with its all stone architecture...</p>
+				<p id="aboutus-link"><a href="#">Readmore...</a></p>
+			</div>
+			<div id="other-links">
+				<p id="footer-title">Other Links</p>
+				<ul>
+					<li><a href="">Publications</a></li>
+					<li><a href="">Media Room</a></li>
+					<li><a href="">Multimedia</a></li>
+					<li><a href="">Related links</a></li>
+					<li><a href="">Alumni</a></li>
+					<li><a href="">Faculty</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="footer2">
+			<div id="connect">
+				<p id="footer-title">Connect With Us</p>
+				<p id="connect-content">We're on social networks. Follow us & get in touch.</p>
+				<div id="social-links">
+					<ul>
+						<li><a href="#" id="youtube">&nbsp;</a></li>
+						<li><a href="#" id="facebook">&nbsp;</a></li>
+						<li><a href="#" id="linkedin">&nbsp;</a></li>
+						<li><a href="#" id="twitter">&nbsp;</a></li>
+					</ul>
+				</div>
+			</div><div id="contact-us">
+				<p id="footer-title">Contact Us</p>
+				<p id="footer-title-bold">Indian Institute of Management Bangalore</p>
+				<p id="footer-content">Bannerghatta Road, Bangalore, India<br>Pin Code: 560 076<br>Phone Number: +91-80-26582450/26993996<br>E-Mail: info@iimb.ernet.in...</p>
+			</div>
+		</div>
+	</div>
 	<div id="copyright-footer">
 		<div id="copyright-footer-content">
 			<ul id="copyright-links">
@@ -197,6 +256,14 @@
 		</div>
 	</div>
 </footer>
+<script>
+	document.getElementById('facebook').onclick = function () { 
+		FB.ui({
+	        method: 'share',
+	        href: 'http://lawrence23.github.io/IIMB/views/'
+	    }, function(response){}); 
+	}
+</script>
 <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="../resources/js/home.js"></script>
 <script src="../resources/js/slider.js"></script>	

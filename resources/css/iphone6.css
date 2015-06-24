@@ -24,7 +24,9 @@
 	width: 80%;
 }
 #copyright-footer-content {
-	width: 100%;	
+	width: 70%;
+    margin: 0 auto;
+    font-size: 11px;	
 }
 #copyright-footer-content p {
 	text-align: center;
@@ -35,8 +37,7 @@
 	float: none;
 	line-height: 35px;
   	height: 10px;
-  	width: 87%;
-  	margin: 0 auto;
+  	width: 100%;
 }
 #copyright-links li {
 	margin: 0px 2px 0px 2px; 

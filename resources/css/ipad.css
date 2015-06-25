@@ -1,9 +1,22 @@
+#header-wrapper {
+	width: 95%;
+}
+#img-container {
+	padding-top: 150px;
+}
 #logo img {
 	margin-top: 8px;
 }
 nav ul li {
 	font-size: 10px;
-	padding: 7px;
+	padding: 10px;
+}
+#nav{
+	height:30px;
+}
+#navlist ul li{
+	font-size: 10px;
+	padding:5px;
 }
 #slider-wrapper {
   	width: 95%;
@@ -22,17 +35,19 @@ nav ul li {
 	display: none;
 }  
 #main-wrapper {
-	width: 100%;
+	width: 95%;
 }
 #content-sections {
-	width: 95%;
+	width: 100%;
   	margin: 0 auto;
 }
 #content-wrapper li {
 	width: 33%;
+	margin-right: 6px;
+  	margin-left: 6px;
 }
 .news-header h2, .events-header h2, .features-header h2 {
-	width: 57%;
+	width: 50%;
 	line-height: 10px;
 }
 .news-image img, .events-image img, .features-image img {
@@ -102,14 +117,22 @@ nav ul li {
 	top: -108px;
 }
 .image-button2 #studentImg {
-	top: -84px;
+	top: -25px;
+  	width: 38%;
 }
 .image-button3 #studentImg {
-	top: -99px;
-	width: 53%;
+	top: -107px;
+  	width: 48%;
 }
 .image-button1, .image-button2, .image-button3 {
   	height: 85px;
+}
+.image-button2 .image-text {
+  	padding: 27px 0px 0px 10px;
+}
+.image-button3 .image-text {
+  	width: 55%;
+  	padding: 10px 0px 0px 20px;
 }
 #button-container {
 	width: 100%;

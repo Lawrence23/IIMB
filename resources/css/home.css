@@ -87,9 +87,10 @@ a, a:visited, a:hover, a:active {
 #slider-wrapper {
 	width: 1024px;
 	margin: 0 auto;
+	position: relative;
 }
 #img-slider {
-	float: right;
+	  float: right;
 }
 #banner {
 	height: 427px;
@@ -98,7 +99,7 @@ a, a:visited, a:hover, a:active {
     background: -o-linear-gradient(bottom right, rgb(11, 128, 248), rgb(0, 154, 255)); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(bottom right, rgb(11, 128, 248), rgb(0, 154, 255)); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to bottom right, rgb(11, 128, 248) , rgb(0, 154, 255)); /* Standard syntax (must be last) */
-	
+	position: absolute;
 	margin-right: 2px;
 	color: #fefefe;
 	font-family: "OpenSans";
@@ -736,55 +737,10 @@ input[type=text] {
 	  padding-left: 16px;
 	    margin-top: 10px;
 }
-
-@media (max-width: 1024px) {
-
-#navlist ul li{
-	
-	padding:5px;
-  }
-#header-wrapper {
-	width:90%;
+#phone-footer {
+	display: none;
 }
 
-#nav{
-	height:30px;
-	/*overflow: hidden;*/
-}
-#navlist ul li{
-	font-size: 10px;
-	padding:5px;
-
-}
-#socialmedia{
-	width: 74%;
-}
-}
-
-
-@media (max-width: 800px) {
-#navlist ul li{
-	font-size: 8px;
-	padding:3px;
-
-}
-
-body {
-	padding:0px;
-}
-
-#header-wrapper {
-	width:90%;
-}
-#socialmedia{
-	width: 73%;
-
-}
-#nav{
-	height:25px;
-	/*overflow: hidden;*/
-}
-}
 @media (min-width: 1280px) {
 	#content-wrapper li:nth-child(3) {
 		margin-right: 0px;

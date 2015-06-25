@@ -1,5 +1,12 @@
+body {
+    padding:0px;
+}
 #header-wrapper {
     width:90%;
+}
+#navlist ul li{
+    font-size: 8px;
+    padding:3px;
 }
 #main-footer {
 	width: 100%;
@@ -24,9 +31,7 @@
 	width: 80%;
 }
 #copyright-footer-content {
-	width: 70%;
-    margin: 0 auto;
-    font-size: 11px;	
+	width: 58%;	
 }
 #copyright-footer-content p {
 	text-align: center;
@@ -37,7 +42,8 @@
 	float: none;
 	line-height: 35px;
   	height: 10px;
-  	width: 100%;
+  	width: 87%;
+  	margin: 0 auto;
 }
 #copyright-links li {
 	margin: 0px 2px 0px 2px; 
@@ -57,9 +63,6 @@ form{
 #logo img {
   	width: 275px;
 }
-#img-container {
-    padding-top: 200px;
-}
 #slider-wrapper {
   	margin: -127px auto;
 }
@@ -71,36 +74,32 @@ form{
 	display: block;
 }
 #submitForm  {
-	display: block;
-  background-image: url(../../assets/images/search_icon.png);
-  background-repeat: no-repeat;
-  height: 26px;
-  /* padding-bottom: 7px; */
-  width: 28px;
-  float: right;
-  /* padding-top: 0px; */
-  background-color: white;
-  border: 1px solid rgb(210, 207, 207);
-  border-radius: 5px;
-  background-position: 1px 3px;
-  margin-top: 14px;
+    display: block;
+    background-image: url(../../assets/images/search_icon.png);
+    background-repeat: no-repeat;
+    height: 26px;
+    width: 28px;
+    float: right;
+    background-color: white;
+    border: 1px solid rgb(210, 207, 207);
+    border-radius: 5px;
+    background-position: 1px 3px;
+    margin-top: 14px;
 }
 #submitButton  {
 	display: block;
-  background-image: url(../../assets/images/menu-icon-dna.png);
-  background-repeat: no-repeat;
-  height: 26px;
-  /* padding-bottom: 7px; */
-  width: 28px;
-  float: right;
-  /* padding-top: 0px; */
-  background-color: white;
-  border: 1px solid rgb(210, 207, 207);
-  border-radius: 5px;
-  background-size: 17px;
-  background-position: 4px 6px;
-  margin-right: 6px;
-  margin-top: 14px;
+    background-image: url(../../assets/images/menu-icon-dna.png);
+    background-repeat: no-repeat;
+    height: 26px;
+    width: 28px;
+    float: right;
+    background-color: white;
+    border: 1px solid rgb(210, 207, 207);
+    border-radius: 5px;
+    background-size: 17px;
+    background-position: 4px 6px;
+    margin-right: 6px;
+    margin-top: 14px;
 }
 #content-wrapper li {
     width: 95%;
@@ -108,9 +107,8 @@ form{
     padding-bottom: 25px;
 }
 #content-wrapper {
-  display: block;
+    display: block;
 }
-
 .image-button1, .image-button2, .image-button3 {
     width: 100%;
     display: inline-block;
@@ -119,19 +117,19 @@ form{
     margin-bottom: 20px;
 }
 .studentImg {
-  float: right;
-  bottom: 107px;
-  position: relative;
-  height: 100px;
-  margin-top: 58px;
+    float: right;
+    bottom: 107px;
+    position: relative;
+    height: 100px;
+    margin-top: 58px;
 }
 .imgtext {
-  font-size: 20px;
-  }
-#span2{
+    font-size: 20px;
+}
+#span2 {
 	display: block;
 }
-#span1{
+#span1 {
 	display: none;
 }
 #button-container {
@@ -139,30 +137,30 @@ form{
     width: 100%;
 }
 .image-button1 p, .image-button2 p, .image-button3 p {
-  font-size: 22px;
-  }
+    font-size: 22px;
+}
 .image-button1 .image-text {
-  padding: 20px 0px 0px 10px;
+    padding: 20px 0px 0px 10px;
 }
 .image-button2 .image-text {
-  padding: 24px 0px 0px 10px;
+    padding: 24px 0px 0px 10px;
 }
 .image-button3 .image-text {
-  padding: 22px 0px 0px 10px;
+    padding: 22px 0px 0px 10px;
 }
 .image-button1 #studentImg {
-  top: -35px;
-  width: 89px;
+    top: -35px;
+    width: 89px;
 }
 .image-button2 #studentImg {
-  top: -17px;
-  width: 89px;
-  right: 10px;
+    top: -17px;
+    width: 89px;
+    right: 10px;
 }
 .image-button3 #studentImg {
-  top: -17px;
-  width: 100px;
-  right: 2px;
+    top: -17px;
+    width: 100px;
+    right: 2px;
 }
 #slider-wrapper {
     width: 100%;
@@ -173,7 +171,7 @@ form{
     padding: 20px 20px 20px 20px;
     height: 56%;
     position: absolute;
-    bottom: -50px;
+    bottom: -207px;
 }
 #banner h1 {
     font-size: 24px;
@@ -189,6 +187,7 @@ form{
 }
 #main-wrapper {
     width: 100%;
+    padding-top: 55%;
 }
 #content-sections {
     display: none;
@@ -197,7 +196,7 @@ form{
     display: block;
 }
 .news-content img, .events-content img, .features-content img {
-    width: 30%;
+    width: 19%;
     height: auto;
     padding-top: 15px;
     padding-bottom: 20px;
@@ -279,6 +278,9 @@ form{
     margin: 0 auto;
     text-align: justify;
 }
+#img-container {
+    padding-top: 200px;
+}
 #main-footer {
     display: none;
 }
@@ -327,5 +329,5 @@ form{
   font-size: 12px;
 }
 #copyright-footer {
-    height: 80px;
+    height: 91px;
 }

@@ -16,15 +16,15 @@
 	width: 20%;
 }
 #connect {
-  	padding-right: 5px;
-  	border-right: 1px solid #2E2E2E;
-  	width: 20%;
+    padding-right: 5px;
+    border-right: 1px solid #2E2E2E;
+    width: 20%;
 }
 #contact-us {
 	width: 80%;
 }
 #copyright-footer-content {
-	width: 70%;
+    width: 70%;
     margin: 0 auto;
     font-size: 11px;	
 }
@@ -71,36 +71,32 @@ form{
 	display: block;
 }
 #submitForm  {
-	display: block;
-  background-image: url(../../assets/images/search_icon.png);
-  background-repeat: no-repeat;
-  height: 26px;
-  /* padding-bottom: 7px; */
-  width: 28px;
-  float: right;
-  /* padding-top: 0px; */
-  background-color: white;
-  border: 1px solid rgb(210, 207, 207);
-  border-radius: 5px;
-  background-position: 1px 3px;
-  margin-top: 14px;
+    display: block;
+    background-image: url(../../assets/images/search_icon.png);
+    background-repeat: no-repeat;
+    height: 26px;
+    width: 28px;
+    float: right;
+    background-color: white;
+    border: 1px solid rgb(210, 207, 207);
+    border-radius: 5px;
+    background-position: 1px 3px;
+    margin-top: 14px;
 }
 #submitButton  {
-	display: block;
-  background-image: url(../../assets/images/menu-icon-dna.png);
-  background-repeat: no-repeat;
-  height: 26px;
-  /* padding-bottom: 7px; */
-  width: 28px;
-  float: right;
-  /* padding-top: 0px; */
-  background-color: white;
-  border: 1px solid rgb(210, 207, 207);
-  border-radius: 5px;
-  background-size: 17px;
-  background-position: 4px 6px;
-  margin-right: 6px;
-  margin-top: 14px;
+    display: block;
+    background-image: url(../../assets/images/menu-icon-dna.png);
+    background-repeat: no-repeat;
+    height: 26px;
+    width: 28px;
+    float: right;
+    background-color: white;
+    border: 1px solid rgb(210, 207, 207);
+    border-radius: 5px;
+    background-size: 17px;
+    background-position: 4px 6px;
+    margin-right: 6px;
+    margin-top: 14px;
 }
 #content-wrapper li {
     width: 95%;
@@ -110,7 +106,6 @@ form{
 #content-wrapper {
   display: block;
 }
-
 .image-button1, .image-button2, .image-button3 {
     width: 100%;
     display: inline-block;
@@ -119,15 +114,15 @@ form{
     margin-bottom: 20px;
 }
 .studentImg {
-  float: right;
-  bottom: 107px;
-  position: relative;
-  height: 100px;
-  margin-top: 58px;
+    float: right;
+    bottom: 107px;
+    position: relative;
+    height: 100px;
+    margin-top: 58px;
 }
 .imgtext {
-  font-size: 20px;
-  }
+    font-size: 20px;
+}
 #span2{
 	display: block;
 }
@@ -139,30 +134,30 @@ form{
     width: 100%;
 }
 .image-button1 p, .image-button2 p, .image-button3 p {
-  font-size: 22px;
-  }
+    font-size: 22px;
+}
 .image-button1 .image-text {
-  padding: 20px 0px 0px 10px;
+    padding: 20px 0px 0px 10px;
 }
 .image-button2 .image-text {
-  padding: 24px 0px 0px 10px;
+    padding: 24px 0px 0px 10px;
 }
 .image-button3 .image-text {
-  padding: 22px 0px 0px 10px;
+    padding: 22px 0px 0px 10px;
 }
 .image-button1 #studentImg {
-  top: -35px;
-  width: 89px;
+    top: -35px;
+    width: 89px;
 }
 .image-button2 #studentImg {
-  top: -17px;
-  width: 89px;
-  right: 10px;
+    top: -17px;
+    width: 89px;
+    right: 10px;
 }
 .image-button3 #studentImg {
-  top: -17px;
-  width: 100px;
-  right: 2px;
+    top: -17px;
+    width: 100px;
+    right: 2px;
 }
 #slider-wrapper {
     width: 100%;

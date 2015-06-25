@@ -560,12 +560,7 @@ a, a:visited, a:hover, a:active {
 body {
 	margin: 0 auto;
 	border: 0;
-	
 	padding: 0;
-		/*font-family: Calibri;
-		font-size: 14px;
-		background: #fff;
-		color: #666;*/
 }
 #header-wrapper {
 	position: absolute;
@@ -575,14 +570,10 @@ body {
 	right: 0;
 	top:0px;
 }
-.main-nav {
-
-}
 nav ul {
     list-style: none;
     display: block;  
     color: #FFFFFF;
-    
 }
 #nav {
 	background-image: url(../../assets/images/topmenu_bg.png);
@@ -610,25 +601,21 @@ nav ul li:hover{
 
 nav ul li a{
     text-decoration: none;
-
-}
-nav ul li ul li {
-	width: 100%;
 }
 nav ul li ul{
-   display: none;
-  position: absolute;
-  z-index: 999;
-  left: 0;
-  margin-top: 11px;
-  width: 30%;
-  background-color: rgb(50, 50, 50);
-
+	display: none;
+	position: absolute;
+	z-index: 999;
+	left: 0;
+	margin-top: 11px;
+	width: 30%;
+	background-color: rgb(50, 50, 50);
 }
 ul li:hover ul{
     display: inline-table; /* display the dropdown */
 }
 nav ul li ul li{
+	width: 100%;
 	border-bottom: 2px solid rgb(65, 65, 65);
 	border-right: none;
 	padding-bottom: 10px
@@ -650,23 +637,15 @@ nav ul li ul li{
 	color: #686868;
 	padding: 7px;
 }
-
 header{
 	position: absolute;
 	width:100%;
-	/*height: 65%;*/
 }
-form {
-  /* width:232px;*/
- 
-}
-
 #searchbox{
   top: 40px;
   position: absolute;
   right: 0;
   height: 27px;
-  
 }
 input[type=text] {
   border-radius: 5px;
@@ -682,9 +661,6 @@ input[type=text] {
 #logo img {
 	width: 90%;
 	padding-top: 13px;
-}
-#social-media {
-
 }
 #social-media ul {
 	height: 24px;
@@ -740,7 +716,6 @@ input[type=text] {
 #phone-footer {
 	display: none;
 }
-
 @media (min-width: 1280px) {
 	#content-wrapper li:nth-child(3) {
 		margin-right: 0px;
